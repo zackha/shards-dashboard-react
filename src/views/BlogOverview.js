@@ -75,11 +75,11 @@ BlogOverview.propTypes = {
 BlogOverview.defaultProps = {
   smallStats: [
     {
-      label: "test",
+      label: "Posts",
       value: "2,390",
       percentage: "4.7%",
       increase: true,
-      chartLabels: [1, 2, 3, 4, 5, 6, 7],
+      chartLabels: [null, null, null, null, null, null, null],
       attrs: { md: "6", sm: "6" },
       datasets: [
         {
@@ -88,7 +88,7 @@ BlogOverview.defaultProps = {
           borderWidth: 1.5,
           backgroundColor: "rgba(0, 184, 216, 0.1)",
           borderColor: "rgb(0, 184, 216)",
-          data: [12, 2, 1, 3, 5, 4, 12]
+          data: [1, 2, 1, 3, 5, 4, 7]
         }
       ]
     },
